@@ -1,5 +1,5 @@
 const div = document.createElement("div");
-document.querySelector("div#hobbies").append(div);
+document.querySelector("body").append(div);
 
 div.setAttribute("id", "favorites");
 
