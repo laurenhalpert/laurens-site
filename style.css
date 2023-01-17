@@ -1,7 +1,14 @@
 body {
     background-color: #B8EFF2;
+    color: #021948
 }
 h1 , h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+div#about-me {
+    background-color: #FFFFFF;
+}
+div#hobbies {
+    background-color: #FFFFFF;
 }
