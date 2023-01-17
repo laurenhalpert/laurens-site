@@ -18,7 +18,7 @@ div#about-me {
 
 img#me {
     height: 200px;
-    float: left;
+    float: right;
     padding: 10px;
 }
 
@@ -30,6 +30,18 @@ div#about-me p {
 div#hobbies {
     background-color: #FFFFFF;
     margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+img#travel {
+    height: 200px;
+    float: left;
+    padding: 20px;
+}
+
+div#hobbies ul {
+    text-align: justify;
 }
 
 
