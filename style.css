@@ -13,11 +13,11 @@ div#about-me {
     background-color: #FFFFFF;
     display: inline-block;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 img#me {
-    height: 200px;
+    height: 300px;
     float: right;
     padding: 10px;
 }
@@ -25,11 +25,12 @@ img#me {
 div#about-me p {
     text-align: justify;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 div#hobbies {
     background-color: #FFFFFF;
-    margin-top: 10px;
+    margin-top: 20px;
     display: inline-block;
     width: 100%;
 }
@@ -47,7 +48,20 @@ div#hobbies ul {
 
 div#favorites {
     background-color: #FFFFFF;
-    margin-top: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+img#sorrento {
+    height: 600px;
+    float: right;
+    padding: 20px;
+}
+
+div#favorites ul.books-movies-food {
+    text-align: justify;
+    margin-left: 10px;
 }
 
 
