@@ -15,3 +15,10 @@ function clickAlert2 () {
     alert("I like to travel to cool places.");
 }
 travel.addEventListener("dblclick", clickAlert2);
+
+const favorites = document.getElementById("favorites");
+function clickAlert3 () {
+    alert("These are a few of my favorite things");
+}
+
+favorites.addEventListener("mouseover", clickAlert3);
