@@ -10,6 +10,7 @@ h1 , h2 {
 
 div#about-me {
     background-color: #FFFFFF;
+    display: inline-block;
 }
 
 div#hobbies {
@@ -25,4 +26,10 @@ header {
     color: #FFFFFF;
     font-size: 72px;
     text-align: center;
+}
+
+img#me {
+    height: 200px;
+    float: left;
+    padding: 10px;
 }
