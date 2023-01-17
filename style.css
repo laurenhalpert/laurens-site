@@ -36,13 +36,14 @@ div#hobbies {
 }
 
 img#travel {
-    height: 200px;
+    height: 300px;
     float: left;
     padding: 20px;
 }
 
 div#hobbies ul {
     text-align: justify;
+    line-height: 40px;
 }
 
 
@@ -62,6 +63,10 @@ img#sorrento {
 div#favorites ul.books-movies-food {
     text-align: justify;
     margin-left: 10px;
+}
+
+div#favorites ul {
+    line-height: 24px;
 }
 
 
