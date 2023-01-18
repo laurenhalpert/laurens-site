@@ -22,3 +22,10 @@ function clickAlert3 () {
 }
 
 favorites.addEventListener("mouseover", clickAlert3);
+
+const body = document.getElementById("body");
+function changeColor () {
+    document.body.style.backgroundColor = "#EBCEFF";
+}
+
+document.addEventListener("click", changeColor);
