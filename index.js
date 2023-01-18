@@ -1,9 +1,14 @@
 
 
 const h2 = document.createElement("h2");
-const div = document.getElementById("favorites");
 h2.textContent = "My Favorites";
-div.append(h2);
+
+const div = document.getElementById("favorites");
+
+const img = document.getElementById("sorrento");
+div.insertBefore(h2, img);
+
+
 
 const me = document.getElementById("me");
 function clickAlert () {
