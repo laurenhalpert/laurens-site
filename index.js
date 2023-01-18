@@ -39,7 +39,7 @@ function changeColor (event) {
     }
 }
 
-document.addEventListener("keydown", changeColor);
+body.addEventListener("keydown", changeColor);
 
 const sorrento = document.getElementById("sorrento");
 function changeImage () {
@@ -47,4 +47,4 @@ function changeImage () {
     sorrento.src = "IMG_0419.JPG";
 }
 
-sorrento.addEventListener("click", changeImage);
+sorrento.addEventListener("click", clickAlert);
