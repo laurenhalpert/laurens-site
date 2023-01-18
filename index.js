@@ -1,8 +1,9 @@
 
 
 const h2 = document.createElement("h2");
+const div = document.getElementById("favorites");
 h2.textContent = "My Favorites";
-document.querySelector("div#favorites").appendChild(h2);
+div.append(h2);
 
 const me = document.getElementById("me");
 function clickAlert () {
@@ -14,6 +15,7 @@ const travel = document.getElementById("travel");
 function clickAlert2 () {
     alert("I like to travel to cool places.");
 }
+
 travel.addEventListener("dblclick", clickAlert2);
 
 const favorites = document.getElementById("favorites");
@@ -21,7 +23,7 @@ function clickAlert3 () {
     alert("These are a few of my favorite things");
 }
 
-favorites.addEventListener("mouseover", clickAlert3);
+
 
 const body = document.getElementById("body");
 function changeColor (event) {
@@ -42,9 +44,11 @@ function changeColor (event) {
 body.addEventListener("keydown", changeColor);
 
 const sorrento = document.getElementById("sorrento");
-function changeImage () {
+
+function clickAlert4 () {
     
-    sorrento.src = "IMG_0419.JPG";
+    alert("this is a test");
 }
 
-sorrento.addEventListener("click", clickAlert);
+sorrento.addEventListener("click", clickAlert4);
+
