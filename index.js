@@ -50,10 +50,9 @@ body.addEventListener("keydown", changeColor);
 
 const sorrento = document.getElementById("sorrento");
 
-function clickAlert4 () {
-    
-    alert("this is a test");
+function changeImage () {
+    sorrento.src ="IMG_0419.JPG";
 }
 
-sorrento.addEventListener("click", clickAlert4);
+sorrento.addEventListener("click", changeImage);
 
