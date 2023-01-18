@@ -24,8 +24,27 @@ function clickAlert3 () {
 favorites.addEventListener("mouseover", clickAlert3);
 
 const body = document.getElementById("body");
-function changeColor () {
-    document.body.style.backgroundColor = "#EBCEFF";
+function changeColor (event) {
+    if (event.key === "ArrowLeft") {
+        document.body.style.backgroundColor = "#EBCEFF";
+    }
+    if (event.key === "ArrowRight") {
+        document.body.style.backgroundColor = "#FFCEEE";
+    }
+    if (event.key === "ArrowDown") {
+        document.body.style.backgroundColor = "#B3F3D3";
+    }
+    if (event.key === "ArrowUp") {
+        document.body.style.backgroundColor = "#D3D3D3";
+    }
 }
 
 document.addEventListener("keydown", changeColor);
+
+const sorrento = document.getElementById("sorrento");
+function changeImage () {
+    
+    sorrento.src = "IMG_0419.JPG";
+}
+
+sorrento.addEventListener("click", changeImage);
