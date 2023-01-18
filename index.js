@@ -23,10 +23,7 @@ function clickAlert2 () {
 
 travel.addEventListener("dblclick", clickAlert2);
 
-const favorites = document.getElementById("favorites");
-function clickAlert3 () {
-    alert("These are a few of my favorite things");
-}
+
 
 
 
@@ -52,6 +49,7 @@ const sorrento = document.getElementById("sorrento");
 
 function changeImage () {
     sorrento.src ="IMG_0419.JPG";
+    sorrento.style.height = "500px";
 }
 
 sorrento.addEventListener("click", changeImage);
