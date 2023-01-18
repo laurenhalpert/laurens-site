@@ -28,4 +28,4 @@ function changeColor () {
     document.body.style.backgroundColor = "#EBCEFF";
 }
 
-document.addEventListener("click", changeColor);
+document.addEventListener("keydown", changeColor);
