@@ -58,5 +58,9 @@ const header = document.getElementById("header");
 function changeFont () {
     header.style.fontFamily = "Apple Chancery";
 }
+function changeFontBack() {
+    header.style.fontFamily = "Helvetica";
+}
 
 header.addEventListener("mouseover", changeFont);
+header.addEventListener("mouseout", changeFontBack);
