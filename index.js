@@ -54,3 +54,9 @@ function changeImage () {
 
 sorrento.addEventListener("click", changeImage);
 
+const header = document.getElementById("header");
+function changeFont () {
+    header.style.fontFamily = "Apple Chancery";
+}
+
+header.addEventListener("mouseover", changeFont);
